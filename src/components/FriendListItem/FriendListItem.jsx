@@ -2,11 +2,7 @@ import PropTypes from 'prop-types';
 import './FriendListItem.css';
 import clsx from 'clsx';
 
-export const ProfileCard = ({
-  avatar = '/public/logo192.png',
-  name = '',
-  isOnline,
-}) => {
+export const ProfileCard = ({ avatar, name, isOnline }) => {
   return (
     <li className="item">
       <span className={clsx('status', { statusOnLine: isOnline })}>
