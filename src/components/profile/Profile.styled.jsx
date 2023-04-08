@@ -8,6 +8,7 @@ export const ProfileContainer = styled.div`
 `;
 
 export const ProfileItem = styled.div`
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +53,7 @@ export const StatsItem = styled.li`
   flex-direction: column;
   align-items: center;
   :not(:last-child) {
-    border-right: 1px solid #0f0f4f;
+    border-right: 1px solid black;
   }
   padding: 5px;
 `;

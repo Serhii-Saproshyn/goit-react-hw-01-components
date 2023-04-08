@@ -1,0 +1,39 @@
+li {
+  list-style: none;
+}
+
+.statistics {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.statList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #fdd36e;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid black;
+}

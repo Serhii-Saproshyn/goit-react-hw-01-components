@@ -9,7 +9,7 @@ import {
   StatsItem,
   StatsLabel,
   StatsQuantity,
-} from 'components/profile/profile.styled';
+} from 'components/profile/Profile.styled';
 
 export const ProfileCard = ({
   username,

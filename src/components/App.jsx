@@ -1,17 +1,10 @@
 import userData from 'data/user.json';
-import { ProfileCard } from './profile/profileCard';
+import userStatistics from 'data/data.json';
+import { ProfileCard } from './profile/ProfileCard';
+import { Statistics } from './statistics/Statistics';
 export const App = () => {
   return (
-    <div
-    // style={{
-    //   height: '100vh',
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   alignItems: 'center',
-    //   fontSize: 40,
-    //   color: '#010101',
-    // }}
-    >
+    <div style={{ backgroundColor: '#2eddc0' }}>
       <ProfileCard
         username={userData.username}
         tag={userData.tag}
@@ -19,6 +12,7 @@ export const App = () => {
         avatar={userData.avatar}
         stats={userData.stats}
       />
+      <Statistics stats={userStatistics} />
     </div>
   );
 };
