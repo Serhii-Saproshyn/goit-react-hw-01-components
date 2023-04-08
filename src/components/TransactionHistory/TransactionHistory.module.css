@@ -1,0 +1,20 @@
+table {
+  width: 300px;
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: #fdd36e;
+}
+
+th {
+  background-color: rgb(255, 162, 0);
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(255, 154, 39);
+}
+
+th,
+td {
+  border: 1px solid rgb(182, 182, 182);
+}
