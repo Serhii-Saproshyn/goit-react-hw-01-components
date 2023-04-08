@@ -2,8 +2,8 @@ import userData from 'data/user.json';
 import userStatistics from 'data/data.json';
 import friendsData from 'data/friends.json';
 import transactionsData from 'data/transactions.json';
-import { ProfileCard } from './profile/ProfileCard';
-import { Statistics } from './statistics/Statisticse';
+import { ProfileCard } from './profile/ProfiledCard';
+import { Statistics } from './statistics/Statistics';
 import { FriendsMarkup } from './FriendList/FriendList';
 import { TransactionsMarkup } from './TransactionHistory/TransactionHistory';
 export const App = () => {
