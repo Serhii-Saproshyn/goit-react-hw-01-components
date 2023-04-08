@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Statistics.module.css';
+import css from './Statisticse.module.css';
 export function Statistics({ title = 'Upload stats', stats }) {
   return (
     <section className={css.statistics}>
