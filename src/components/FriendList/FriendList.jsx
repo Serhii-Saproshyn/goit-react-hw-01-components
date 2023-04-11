@@ -13,9 +13,9 @@ export function FriendsMarkup({ friends }) {
 }
 
 FriendsMarkup.propTypes = {
-  friends: PropTypes.array,
-  avatar: PropTypes.string,
-  name: PropTypes.string,
-  isOnline: PropTypes.bool,
-  id: PropTypes.number,
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+    })
+  ).isRequired,
 };
